@@ -27,7 +27,8 @@ Sections/Tutos
 :caption: Appendix
 :hidden:
 
-Appendix/to-check
+Site/to-check
+Appendix/Site_Main
 
 ```
 

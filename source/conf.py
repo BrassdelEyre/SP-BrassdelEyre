@@ -59,12 +59,12 @@ html_static_path = ['_static']
 html_theme_options = {
     "external_links": [
         {
-            "url": "https://BrassdelEyre.github.io/jb-asso/build/html/",
+            "url": "https://BrassdelEyre.github.io/jb-asso/_build/html/",
             "name": "&nbsp &nbsp &nbsp &nbsp 📃 L'Asso",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "https://BrassdelEyre.github.io/jb-brasserie/build/html/",
+            "url": "https://BrassdelEyre.github.io/jb-brasserie/_build/html/",
             "name": "&nbsp &nbsp &nbsp &nbsp 💪 La Brasserie",
             "attributes": {"target": "_blank"},
         },

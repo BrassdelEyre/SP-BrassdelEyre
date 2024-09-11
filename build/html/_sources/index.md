@@ -7,14 +7,6 @@ myst:
 html_theme.sidebar_secondary.remove: true
 ---
 
-```{toctree}
-:maxdepth: 2
-:caption: Home
-:hidden:
-
-content/index
-```
-
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -57,7 +49,9 @@ s0.parentNode.insertBefore(s1,s0);
 <img src="_static/Photos/Slider/jimi-insecte.jpg">
 <img src="_static/Photos/Slider/brass-clean.jpg">
 <img src="_static/Photos/Slider/cuves-clean.jpg">
-
+<img src="_static/Photos/Slider/Photo-groupe-fete-brasserie.jpg">
+<img src="_static/Photos/Slider/team-pic-brass.jpg">
+<img src="_static/Photos/Slider/team-pic-fete.jpg">
 </div>
 </div>
 
@@ -97,16 +91,67 @@ s0.parentNode.insertBefore(s1,s0);
 
 
 
-```{admonition} Petit paragraphe introductif
+Nous sommes une jeune association brassicole (loi 1901 donc a but non luvcrative) attaché a promouvoir la culture brassicole artisanale, les techniques agricoles protectrices du vivant et les échanges sociaux en offrant un espace de convivialité où se réunir, produire et déguster des bières artisanales, et échanger des connaissances sur le brassage et l’agriculture naturel. L'association a aussi pour but de participer à développer des circuits courts, soutenir la protection du vivant ou développer le lien social. Elle s'engage également à contribuer positivement à la vie sociale et environnementale locale, notamment en utilisant un maximum de produits locaux et sourcés, en produisant une partie de ses propres besoins, en tissant des partenariats avec des structures œuvrant dans ces secteurs ou en proposant au public des temps de découvertes et des activités sur les sujets cités ci-dessus. Les membres de l'association sont attaché.e.s à la protection du vivant et sont soucieux et soucieuses de répondre aux enjeux socio-culturels, climatiques et écologiques actuels. L’association s‘engage à prendre en compte les problématiques liées à la consommation d’alcool pour les personnes ou pour leur entourage en mettant en place des actions de sensibilisation liée à sa consommation.
 
-Nous sommes une toute jeune association loi 1901 ...
+<br>
 
+
+
+:::::::{admonition} Plus d'infos sur notre communication, la construction et l'arborescence du site
+:class: tip, dropdown
+
+
+:::::{grid} 2
+
+::::{grid-item}
+:columns: 4
+
+<br>
+<br>
+
+Vous êtes sur le site principal de la brasserie. Pour refléter les différentes activités de l’association, nous avons créé cinq sites distincts mais connectés pour faciliter la navigation. Chaque site est accessible via le menu en haut, avec plus d’informations un peu plus bas. Le schéma à droite illustre les processus de communication au sein de la Brass de l’Eyre. Nous utilisons WhatsApp pour échanger entre membres fondateurs et organiser les brassages collaboratifs. La communication avec les membres adhérents et partenaires se fait via Gmail. Nous documentons notre évolution pour permettre à d’autres de reproduire notre démarche et promouvoir l’économie sociale et solidaire. Tous nos documents (officiels, photos, outils, procédures) sont archivés sur un Google Drive privé réservé aux membres fondateurs. Certains documents sont cependant rendus accessibles pour faciliter les brassages, héberger les documents officiels et conserver et partager une trace des événements. Pour cela nous avons mis en place une méthode qui utilise des outils open-source ([JupyterBook](https://jupyterbook.org/en/stable/intro.html) et [Github](https://github.com/)) qui nous permet de créer, héberger et implémenter plusieurs sites internet de manière gratuite, collaborative et fluide. Ainsi chaque document présent sur le drive durant sa phase de création a vocation a être inséré dans un des sites, afin de participer a la création d'une **histoire collective** qui puisse inclure toute les personnes ayant participé au projet. Cette méthodologie nous permet d'écrire notre histoire au fil de l'eau, de manière itérative, de coordoner notre intelligence collective et de partager notre experience et celle de nos membres.
+
+::::
+
+::::{grid-item}
+:columns: 8
+
+```{figure} _static/assets/communication-diagram.svg
+---
+width: 100%
+name: communication-diagram
+---
+Schéma représentant les processus de communications de la Brass' de l'Eeyre
 ```
 
-::::{grid} 5
+::::
+
+:::::
+
+
+::::::{tab-set}
+:::::{tab-item} L'Asso
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 7
+
+
+<p class="emphase">Ce site est dédié a l'archivage et la présentation des documents officiels en lien avec l'association. C'est un lieu de coordination des différents <em>groupes de travails</em>. Vous y trouverez également des informations générales comme les profils des membres du bureaux etc.
+</p>
+
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+:::
 
 :::{grid-item-card}
-:link: Bieres/Liste/SolEyre/SolEyre.html
+:link: https://brassdeleyre.github.io/jb-asso/_build/html/intro.html
+:columns: 4
 :class-header: bg-light
 
 **L'Asso**
@@ -118,9 +163,32 @@ Nous sommes une toute jeune association loi 1901 ...
 
 :::
 
+::::
+
+
+
+
+
+
+:::::
+
+:::::{tab-item} La Brasserie
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">C'est ici que l'on donne les informations relative au brassage. C'est également l'endroit ou on héberge les documentations techniques relatives a l'usage de la brasserie.</p>
+
+
+:::
+
 :::{grid-item-card}
-:link: Bieres/Liste/SolEyre/SolEyre.html
+:link: https://brassdeleyre.github.io/jb-brasserie/_build/html/intro.html
 :class-header: bg-light
+:columns: 4
 
 **La Brasserie**
 
@@ -132,9 +200,35 @@ Nous sommes une toute jeune association loi 1901 ...
 
 :::
 
+::::
+
+:::::
+
+:::::{tab-item} Les Bières
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">La liste de toutes nos recettes! Avec plus tard des formulaires pour les commander</p>
+
+
+```{note}
+
+Potentiellement un bon projet pour participer a la formation de *Label Emmaüs l'école*
+
+
+```
+
+
+:::
+
 :::{grid-item-card}
-:link: Bieres/Liste/SolEyre/SolEyre.html
+:link: https://brassdeleyre.github.io/jb-bieres/_build/html/intro.html
 :class-header: bg-light
+:columns: 4
 
 **Les Bières**
 
@@ -145,9 +239,28 @@ Nous sommes une toute jeune association loi 1901 ...
 
 :::
 
+::::
+
+
+:::::
+
+:::::{tab-item} Les Evenements
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">Les archives et pages promotionnels des évènements</p>
+
+
+:::
+
 :::{grid-item-card}
-:link: Bieres/Liste/SolEyre/SolEyre.html
+:link: https://brassdeleyre.github.io/jb-evenements/_build/html/intro.html
 :class-header: bg-light
+:columns: 4
 
 **Les Evenements**
 
@@ -159,9 +272,29 @@ Nous sommes une toute jeune association loi 1901 ...
 
 :::
 
+::::
+
+
+
+:::::
+
+:::::{tab-item} La Culture
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+
+<p class="emphase">Des petits tutos pour sensibiliser au brassage</p>
+
+
+:::
+
 :::{grid-item-card}
-:link: Bieres/Liste/SolEyre/SolEyre.html
+:link: https://brassdeleyre.github.io/jb-culture/_build/html/intro.html
 :class-header: bg-light
+:columns: 4
 
 **La Culture**
 
@@ -174,72 +307,15 @@ Nous sommes une toute jeune association loi 1901 ...
 
 ::::
 
+:::::
+
+::::::
+
+:::::::
+
 <br>
 
-`````{admonition} Plus d'infos
 
-::::{tab-set}
-
-:::{tab-item} Introduction
-
-Introduire les différents sites
-
-:::
-
-:::{tab-item} L'Asso
-
-<p class="emphase"> <strong> Création de l'association !</strong></p>
-
-- samedi 29 juin
-
-:::
-
-:::{tab-item} La Brasserie
-
-No News,
-
-- Programme des futurs brassages a établir
-
-
-```{note}
-
-mettre lien ou embed le calendrier des brassages
-
-```
-
-
-:::
-
-:::{tab-item} Les Bières
-
-Finir le stock et préparer des outils de gestion adaptés (traçabilité ...)
-
-:::
-
-:::{tab-item} Les Evenements
-
-<p class="emphase"> <strong> Fête de la brasserie</strong></p>
-
-```{warning} 
-
-Récupérer les photos de l'évènement
-
-```
-
-:::
-
-:::{tab-item} La Culture
-
-Section a créer
-
-:::
-
-
-::::
-
-
-
-`````
 
 <br>
 <br>
@@ -247,76 +323,93 @@ Section a créer
 ## **Actualités**
 
 <br>
+<br>
 
-::::{tab-set}
-:::{tab-item} L'Asso
+::::{card-carousel} 2
 
-<p class="emphase"> <strong> Création de l'association !</strong></p>
+:::{card} 
+:class-header: bg-light
+**Fête de la Brasserie!**
+^^^
 
-- samedi 29 juin
-
-:::
-
-:::{tab-item} La Brasserie
-
-No News,
-
-- Programme des futurs brassages a établir
-
-
-```{note}
-
-mettre lien ou embed le calendrier des brassages
+```{image} _static/Photos/Slider/Photo-groupe-fete-brasserie.jpg
 
 ```
 
 
++++
+Lien vers page
 :::
 
-:::{tab-item} Les Bières
+:::{card}
+:class-header: bg-light
+**Création de l'association!**
+^^^
 
-Finir le stock et préparer des outils de gestion adaptés (traçabilité ...)
+- *30/06/2024*: **Premier Conseil d'Administration**, mise en place des différents groupes de travail
 
+<br>
+
+- *29/06/2024*: **Assemblé Générale Constitutive**, éléction des membres du breaux
+
+
+
++++
+Lien vers page
 :::
 
-:::{tab-item} Les Evenements
+:::{card}
+:class-header: bg-light
+**Collaboration avec la cuvée**
+^^^
 
-<p class="emphase"> <strong> Fête de la brasserie</strong></p>
+Pour le dernier brassage de l'année, nous avons réalisé un brassage collaboratif avec nos amis de la cuvée des écolos!
 
-```{warning} 
-
-Récupérer les photos de l'évènement
-
-```
-
++++
+Lien vers page
 :::
 
-:::{tab-item} La Culture
-
-Section a créer
-
-:::
 
 
 ::::
 
 
-<br>
-<br>
-
-
-<h1> Commentaires</h1>
-
 
 <br>
 
-<script src="https://utteranc.es/client.js"
-        repo="Deugz/jb-brasserie"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
+## Liens Rapides
+
+
+::::{grid} 2
+
+
+:::{grid-item-card}
+:link: https://brassdeleyre.github.io/jb-culture/_build/html/intro.html
+:class-header: bg-light
+:columns: 4
+
+**Calendrier Brassages**
+
+^^^
+
+```{image} _static/SVG_files/calendar-svgrepo-com.svg
+:width: 100%
+
+```
+
+:::
+
+::::
+
+
+```{admonition} A réfléchir de manière collaborative
+
+Mettre en place des séries de questions, par exemple "comment ça se passe un brassage", et inclure ensuite des liens vers les différentes pages qui permettent de répondre a la question
+
+
+
+
+```
 
 
